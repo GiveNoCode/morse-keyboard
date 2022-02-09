@@ -13,4 +13,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Morse Keyboard"
-include ':app'
+
+include(":app")
