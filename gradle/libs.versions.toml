@@ -1,0 +1,25 @@
+[versions]
+
+kotlin = "1.6.10"
+gradle = "7.1.1"
+
+androidx-core = "1.7.0"                         # https://developer.android.com/jetpack/androidx/releases/core
+androidx-activity = "1.4.0"                     # https://developer.android.com/jetpack/androidx/releases/activity
+androidx-lifecycle = "2.4.1"                    # https://developer.android.com/jetpack/androidx/releases/lifecycle
+androidx-compose = "1.1.0"                      # https://developer.android.com/jetpack/androidx/releases/compose
+androidx-composeCompiler = "1.1.0"              # https://developer.android.com/jetpack/androidx/releases/compose
+
+
+[libraries]
+
+android-gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+kotlin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-stdLib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
+androidx-compose-ui-core = { module = "androidx.compose.ui:ui", version.ref = "androidx-compose" }
+androidx-compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "androidx-compose" }
+androidx-compose-ui-toolingPreview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "androidx-compose" }
+androidx-compose-material = { module = "androidx.compose.material:material", version.ref = "androidx-compose" }

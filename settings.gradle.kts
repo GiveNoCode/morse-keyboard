@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 rootProject.name = "Morse Keyboard"
 
 include(":app")
+
+enableFeaturePreview("VERSION_CATALOGS")
